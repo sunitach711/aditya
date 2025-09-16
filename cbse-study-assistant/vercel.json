@@ -1,0 +1,24 @@
+{
+  "name": "cbse-study-assistant",
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",3633333333333253.53.53.
+      "dest": "/$1"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "functions": {
+    "app/api/**": {
+      "maxDuration": 30
+    }
+  }
+}

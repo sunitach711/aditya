@@ -9,10 +9,6 @@ import {
   BookOpen, 
   PenTool, 
   ClipboardList, 
-  BarChart3,
-  Plus,
-  TrendingUp,
-  Clock,
   Award
 } from 'lucide-react'
 import Link from 'next/link'
@@ -98,7 +94,7 @@ export default function DashboardPage() {
             Welcome back, {session?.user?.name}!
           </h1>
           <p className="text-gray-600">
-            Here's your learning progress and recent activities.
+            Here&apos;s your learning progress and recent activities.
           </p>
         </div>
 
